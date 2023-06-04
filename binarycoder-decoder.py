@@ -2,6 +2,7 @@ def frombinary(code):
     print(True)
     while (len(code)%8)!=0:
         code="0"+code
+    list=[]
     temp=""
     i2=0
     for i in code:
